@@ -1,15 +1,9 @@
 import "./Bodily.css";
 
-
 import quotes from "../../assets/images/Quotes.png";
+import avatar from "../../assets/images/Male.png";
 
-
-
-
-
-
-
-import React from 'react'
+import React from "react";
 
 const Bodily = () => {
   return (
@@ -31,43 +25,44 @@ const Bodily = () => {
         <div className="card-design02">
           <div className="card-human">
             <div className="card-human02">
-              <div className="card-human03">
-                <p className="Card-design">
-                  Having 15 years of experience in design field. <br />
-                  Design is my passion and sharing <br /> my knowledge is my
-                  love.
-                </p>
-              </div>
+              <img src={avatar} alt="avatar" />
+            </div>
+            <div className="card-human03">
+              <p className="Card-design">
+                Having 15 years of experience in design field. <br />
+                Design is my passion and sharing <br /> my knowledge is my love.
+              </p>
             </div>
           </div>
 
           <div className="card-human">
             <div className="card-human02">
-              <div className="card-human03">
-                <p className="Card-design">
-                  Having 15 years of experience in design field. <br />
-                  Design is my passion and sharing <br /> my knowledge is my
-                  love.
-                </p>
-              </div>
+              <img src={avatar} alt="avatar" />
+            </div>
+            <div className="card-human03">
+              <p className="Card-design">
+                Having 15 years of experience in design field. <br />
+                Design is my passion and sharing <br /> my knowledge is my love.
+              </p>
             </div>
           </div>
 
           <div className="card-human">
             <div className="card-human02">
-              <div className="card-human03">
-                <p className="Card-design">
-                  Having 15 years of experience in design field. <br />
-                  Design is my passion and sharing <br /> my knowledge is my
-                  love.
-                </p>
-              </div>
+              <img src={avatar} alt="avatar" />
+            </div>
+            <div className="card-human03">
+              <p className="Card-design">
+                Having 15 years of experience in design field. <br />
+                Design is my passion and sharing <br /> my knowledge is my love.
+              </p>
             </div>
           </div>
+
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default Bodily
+export default Bodily;

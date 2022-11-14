@@ -57,3 +57,18 @@
     justify-content: center;
     /* width: 50%; */
 }
+
+.card-human {
+    position: relative;
+}
+
+.card-human02 {
+    width: 20%;
+    position: absolute;
+    left: 30px;
+    top: -10px;
+}
+
+.card-human02 img {
+    width: 100%;
+}

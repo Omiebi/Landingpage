@@ -1,0 +1,24 @@
+.card-trade {
+    padding: 50px;
+    display: flex;
+    height: 400px;
+}
+
+.Hooks {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.card-trade01 {
+    width: 50%;
+}
+
+.positionphone {
+    position: relative;
+}
+
+.positionphone img {
+    position: absolute;
+    z-index: 1;
+}
