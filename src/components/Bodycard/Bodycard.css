@@ -1,0 +1,78 @@
+    .blue01 {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .Hubcolor {
+        color: blue;
+    }
+    
+    .card-container06 {
+        width: 82%;
+        margin: 20px auto;
+        /* padding: 70px; */
+    }
+    
+    .buttoncol {
+        color: #ffff;
+        background-color: black;
+        border: none;
+        border-radius: 10px;
+        /* padding: 1%; */
+        width: 40px;
+        text-align: center;
+    }
+    
+    .spaces {
+        font-family: "Visby";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    
+    .listings {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        width: 50%;
+        margin-right: 20%;
+        padding: 0;
+    }
+    
+    .card-laptop {
+        background-color: #fff;
+        border: none;
+        border-radius: 20px;
+        display: grid;
+    }
+    
+    .card-container07 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 15px;
+        font-family: 'Visby';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    
+    .more {
+        width: 100px;
+        height: 50px;
+        background-color: #fff;
+        color: blue;
+        border: none;
+        border-radius: 10px;
+    }
+    
+    .card-image {
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
+    .Volatility {
+        padding: 30px;
+    }
