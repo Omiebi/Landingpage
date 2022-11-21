@@ -184,7 +184,7 @@
     .hamburgerbutton {
         border: none;
         border-radius: 5px;
-        background-color: aqua;
+        background-color: rgb(204, 194, 236);
         margin-left: -17rem;
     }
     .News-btn {
@@ -195,8 +195,10 @@
     }
     .crypto {
         text-align: start;
-        font-size: 20px;
+        font-size: 14px;
         line-height: 40px;
+        margin-right: -50px;
+        margin-left: -4rem;
     }
     .img-box {
         height: 62rem;
@@ -205,49 +207,41 @@
         text-align: start;
         font-size: 23px;
         line-height: 30px;
-        margin-left: 50px;
+        margin-left: 32px;
+        margin-bottom: 4rem;
     }
     .email-form01 {
         display: none;
     }
     .SignupButton {
         margin-right: 20px;
-        margin-left: 15px;
-        /* font-size: 14px; */
-        /* justify-content: center; */
+        margin-left: -11rem;
     }
     .vectortheviper {
         display: block;
-        padding-left: 52px;
+        padding-left: 30px;
     }
     .vectorthe {
         display: block;
         flex-direction: column;
     }
     .dashboad {
-        /* margin-right: 10rem; */
-        /* flex-direction: column; */
-        width: 80%;
-        margin-left: 50%;
-        margin-bottom: 90px;
-        margin-top: -18px;
+        width: 70%;
+        margin-left: 25%;
+        margin-bottom: 70px;
+        margin-top: 65px;
     }
-    /* .main-navbar {
-        width: 40px;
-    } */
     .main-navbar {
         width: 100%;
-        /* flex-direction: column; */
     }
     .sub-navbar {
         padding: 1rem 3rem;
         margin-top: 1.9rem;
     }
     .News-btn05 {
-        width: 120%;
+        width: 50%;
         text-align: start;
-        /* margin-right: 30px; */
-        margin-left: 22rem;
+        margin-left: 30px;
         display: block;
         border: none;
         border-radius: 20px;
@@ -260,9 +254,14 @@
     .socialmedia {
         display: flex;
         gap: 45px;
+        margin-top: 5rem;
     }
     .world {
         width: 100%;
         text-align: center;
+        display: none;
+    }
+    .cryptobuy {
+        float: left;
     }
 }

@@ -5,8 +5,9 @@ import flag from "../../assets/svg/ellipse22.svg";
 import bgImg from "../../assets/images/background-img.png";
 import dash from "../../assets/images/dashboard.png";
 import hamburger from "../../assets/images/Hamburger.png";
-import vectors from "../../assets/images/Playstore.png";
-import vector from "../../assets/images/Vector.png";
+
+import appstore from "../../assets/images/Appstore.png";
+import googleplay from "../../assets/images/Googleplay.png";
 
 const Header = () => {
   return (
@@ -68,7 +69,7 @@ const Header = () => {
       </div>
 
       <div className="crypto">
-        <h1>
+        <h1 className="cryptobuy">
           75+ cryptocurrencies at your <br />
           fingertips on Roqqu
         </h1>
@@ -88,16 +89,16 @@ const Header = () => {
           placeholder="Your email address"
           className="email-form01"
         ></input>
-        <button className="SignupButton">Get started</button>
+        <button className="SignupButton">Get started ></button>
       </div>
 
       <div className="socialmedia">
         <div className="vectortheviper">
-          <img src={vectors} alt="vector" />
+          <img src={googleplay} alt="appstore" />
         </div>
 
         <div className="vectorthe">
-          <img src={vector} alt="vector" />
+          <img src={appstore} alt="vector" />
         </div>
       </div>
 
