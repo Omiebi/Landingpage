@@ -11,7 +11,6 @@
     font-size: 40px;
     line-height: 56px;
     color: aliceblue;
-    /* margin-left: 14%; */
     position: absolute;
     top: 0;
     z-index: 10;
@@ -35,11 +34,6 @@
 
 .Card-design {
     color: #fff;
-    /* font-family: 'Visby';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px; */
     color: black;
     padding: 20%;
 }
@@ -71,4 +65,55 @@
 
 .card-human02 img {
     width: 100%;
+}
+
+.Roqquian001 {
+    font-size: 200px;
+    display: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 400px) {
+    .card-container04 {
+        flex-direction: column;
+        width: 20rem;
+        padding: 15px;
+    }
+    .left {
+        width: 100%;
+    }
+    .Develophim {
+        font-size: 12px;
+    }
+    .card-container04 .left h1 {
+        font-size: 17px;
+    }
+    .list {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .right {
+        width: 100%;
+        height: 50%;
+    }
+    .card-design02 {
+        display: flex;
+        flex-direction: column;
+    }
+    .Roqquians {
+        font-size: 20px;
+    }
+    .blue-feedback01 {
+        flex-direction: column;
+    }
+    .Roqquians001 {
+        font-size: 20rem;
+        color: #fff;
+        display: none;
+    }
+    .Roqquians {
+        font-size: 40px;
+        line-height: 30px;
+        margin-right: 10rem;
+    }
 }

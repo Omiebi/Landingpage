@@ -11,45 +11,45 @@ export const Cardbodies = () => {
   return (
     <div className="card-container03">
       <div className="left">
-        <p>WALLET</p>
-        <h1>Swift, Safe, Secured</h1>
+        <p className="Develophim">BUSINESS</p>
+        <h1>Take your business to the next level with payment links! </h1>
         <p>
-          No need to spend months integrating crypto <br /> functionality, we’ve
-          got you!
+          You can now receive all your payments globally within minutes and not
+          have to worry about price volatility.
         </p>
         <div className="list">
           <p className="set">
             <div className="tick">
               <img src={icon} alt="tick" />
             </div>
-            Simple integration
+            Fast
           </p>
           <p className="set">
             <div className="tick">
               <img src={icon} alt="tick" />
             </div>
-            Military Grade Security
+            Encrypted Security
           </p>
           <p className="set">
             <div className="tick">
               <img src={icon} alt="tick" />
             </div>
-            Intelligent Fraud Detection
+            Easy to integrate
           </p>
           <p className="set">
             <div className="tick">
               <img src={icon} alt="tick" />
             </div>
-            Simple Documentation
+            24/7 Support
           </p>
           <p className="set">
             <div className="tick">
               <img src={icon} alt="tick" />
             </div>
-            Dev Support
+            Safe
           </p>
         </div>
-        <button>Get Started >></button>
+        <button className="Startedyet">Get Started ></button>
         <button>Learn More >></button>
       </div>
       <div className="right">

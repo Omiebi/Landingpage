@@ -40,9 +40,16 @@ const Footer = () => {
 
           <div className="foot">
             <div className="foot-left">
-              <div className="addressbutton">
-                <button className="emailbutton">Email Address ></button>
+              
+              <div className="#">
+                <p class="addressbutton">EMAIL ADDRESS</p>
+                <input type="text " placeholder="EMAIL ADDRESS "></input>
+                <span id="invalid-email"></span>
               </div>
+
+              {/* <div className="addressbutton">
+                <button className="emailbutton">Email Address ></button>
+              </div> */}
 
               <div className="tills">
                 <div className="tilted">
@@ -66,10 +73,10 @@ const Footer = () => {
               <div>
                 <h4>Product</h4>
                 <p>Wallet</p>
-                <p>Excahnge</p>
-                <p>Loand</p>
-                <p>Virtual card</p>
-                <p>savings</p>
+                <p>Exchange</p>
+                <p>Loans</p>
+                <p>Virtual Card</p>
+                <p>Savings</p>
               </div>
               <div>
                 <h4>Company</h4>
@@ -85,7 +92,7 @@ const Footer = () => {
               <div>
                 <h4>Resources</h4>
                 <p>Help center</p>
-                <p>FAQ</p>
+                <p>FAQs</p>
                 <p>Roqqu Hub</p>
               </div>
             </div>

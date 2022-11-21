@@ -8,8 +8,8 @@ const Cardbodied = () => {
   return (
     <div className="card-container04">
       <div className="left">
-        <p>WALLET</p>
-        <h1>Swift, Safe, Secured</h1>
+        <p className="Develophim">DEVELOPERS</p>
+        <h1>Get real time data over a powerful api</h1>
         <p>
           No need to spend months integrating crypto <br /> functionality, we’ve
           got you!
@@ -46,8 +46,8 @@ const Cardbodied = () => {
             Dev Support
           </p>
         </div>
-        <button>Get Started >></button>
-        <button>Learn More >></button>
+        <button className="Startedyet">Integrate Now ></button>
+        <button className="Startednot">Learn More >></button>
       </div>
       <div className="right">
         <img src={station} alt="" />

@@ -3,51 +3,49 @@ import jetter from "../../assets/images/LightingJet01.png";
 import icon from "../../assets/images/Icon.png";
 import "./Bodied.css";
 
-
-
 const Bodied = () => {
   return (
     <div className="card-container05">
       <div className="left">
-        <p>WALLET</p>
-        <h1>Swift, Safe, Secured</h1>
+        <p className="Develophim">SAVINGS $ INVESTMENT</p>
+        <h1>Boost your Finances!</h1>
         <p>
-          Never thought you could process crypto transactions with lightning
-          speed right? Well, welcome to Roqqu! It doesn’t stop at that, you;
+          You enjoy +15% p.a interest, no market volatility, and even beat
+          inflation when you stash funds away in stable coins.
         </p>
         <div className="list">
           <p className="set">
             <div className="tick">
               <img src={icon} alt="tick" />
             </div>
-            Simple integration
+            Zero bank charges
           </p>
           <p className="set">
             <div className="tick">
               <img src={icon} alt="tick" />
             </div>
-            Military Grade Security
+            No market volatility
           </p>
           <p className="set">
             <div className="tick">
               <img src={icon} alt="tick" />
             </div>
-            Intelligent Fraud Detection
+            Safe and Secure funds
           </p>
           <p className="set">
             <div className="tick">
               <img src={icon} alt="tick" />
             </div>
-            Simple Documentation
+            Solid Security
           </p>
           <p className="set">
             <div className="tick">
               <img src={icon} alt="tick" />
             </div>
-            Dev Support
+            +15% interest p.a
           </p>
         </div>
-        <button>Get Started >></button>
+        <button className="Startedyet">Get Started >></button>
         <button>Learn More >></button>
       </div>
       <div className="right">
@@ -56,7 +54,5 @@ const Bodied = () => {
     </div>
   );
 };
-
-
 
 export default Bodied;

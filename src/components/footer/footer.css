@@ -14,7 +14,6 @@
 
 .footer-container02 {
     display: flex;
-    /* justify-content: space-between; */
     gap: 30px;
 }
 
@@ -24,6 +23,11 @@
 
 .latest01 {
     color: gray;
+    font-family: "Visby";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .emailbutton {
@@ -37,6 +41,8 @@
 
 .addressbutton {
     width: 100%;
+    border: 1px solid;
+    border-radius: 20px;
 }
 
 .tills {
@@ -66,14 +72,46 @@
 }
 
 .table {
-    color: #fff;
+    color: #a7b1bc;
     display: flex;
     width: 50%;
     justify-content: space-between;
+    font-family: "Visby";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .rights {
-    color: #A7B1BC;
+    color: #a7b1bc;
     justify-content: space-between;
     display: flex;
+    font-family: "Visby";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: "pnum" on, "lnum" on;
+}
+
+@media screen and (max-width: 400px) {
+    .footer-container02 {
+        height: 8rem;
+        margin-bottom: 80px;
+    }
+    .botcolor {
+        margin-top: 80px;
+    }
+    .addressbutton {
+        margin-top: 5px;
+    }
+    .table {
+        margin-top: 80%;
+        flex-direction: row-reverse;
+        /* margin-right: 60rem; */
+    }
+    .rights {
+        flex-direction: column;
+    }
 }

@@ -4,6 +4,9 @@ import logo from "../../assets/svg/Logo-White.svg";
 import flag from "../../assets/svg/ellipse22.svg";
 import bgImg from "../../assets/images/background-img.png";
 import dash from "../../assets/images/dashboard.png";
+import hamburger from "../../assets/images/Hamburger.png";
+import vectors from "../../assets/images/Playstore.png";
+import vector from "../../assets/images/Vector.png";
 
 const Header = () => {
   return (
@@ -15,6 +18,12 @@ const Header = () => {
         <div className="sub-navbar">
           <img src={logo} alt="logo" />
         </div>
+
+        {/* <div className="hamburgers">
+          <button className="hamburgerbutton">
+            <img src={hamburger} alt="hamburger" />
+          </button>
+        </div> */}
 
         <div className="navbar01">
           <ul className="navbar-items">
@@ -28,15 +37,33 @@ const Header = () => {
         <div className="navbar01">
           <div className="SignIn">Sign In</div>
           <button className="SignupBtn">Sign up for free</button>
-          <div>
+          <div className="flagship">
             <img src={flag} alt="flag" />
           </div>
         </div>
+
+        <div className="hamburgers">
+          <button className="hamburgerbutton">
+            <img src={hamburger} alt="hamburger" />
+          </button>
+        </div>
       </nav>
+
+      {/* <div className="hamburgers">
+        <button className="hamburgerbutton">
+          <img src={hamburger} alt="hamburger" />
+        </button>
+      </div> */}
 
       <div className="News">
         <button className="News-btn">
-          News <span>News goes there and can be this long only</span>
+          <button className="News-btn01">News </button>
+          News goes there and can be this long only >
+        </button>
+
+        <button className="News-btn05">
+          <button className="News-btn01">News </button>
+          News goes there >
         </button>
       </div>
 
@@ -58,15 +85,29 @@ const Header = () => {
       <div className="email-form">
         <input
           type="text "
-          placeholder="Your email address "
+          placeholder="Your email address"
           className="email-form01"
         ></input>
-        <button className="SignupBtn">Get started</button>
+        <button className="SignupButton">Get started</button>
       </div>
 
-      <div className="world">Download our app! Dive into the Roqqu world!</div>
+      <div className="socialmedia">
+        <div className="vectortheviper">
+          <img src={vectors} alt="vector" />
+        </div>
 
-      <div className="">
+        <div className="vectorthe">
+          <img src={vector} alt="vector" />
+        </div>
+      </div>
+
+      <div className="worlds">
+        <div className="world">
+          Download our app! Dive into the Roqqu world!
+        </div>
+      </div>
+
+      <div className="dashes">
         <img src={dash} alt="dashboard" className="dashboad" />
       </div>
     </div>

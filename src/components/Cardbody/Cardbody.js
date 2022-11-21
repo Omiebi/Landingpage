@@ -13,45 +13,45 @@ export const Cardbody = () => {
     <div>
       <div className="card-container02">
         <div className="left">
-          <p>WALLET</p>
-          <h1>Swift, Safe, Secured</h1>
+          <p className="Develophim">EXCHANGE</p>
+          <h1>Lighting Fast Crypto Trading</h1>
           <p>
-            No need to spend months integrating crypto <br /> functionality,
-            we’ve got you!
+            Trade over 100+ cryptocurrencies at the best swiftness available on
+            low fees, advanced accessibility all over globe.
           </p>
           <div className="list">
             <p className="set">
               <div className="tick">
                 <img src={icon} alt="tick" />
               </div>
-              Simple integration
+              Low Fees
             </p>
             <p className="set">
               <div className="tick">
                 <img src={icon} alt="tick" />
               </div>
-              Military Grade Security
+              Virtual Cards
             </p>
             <p className="set">
               <div className="tick">
                 <img src={icon} alt="tick" />
               </div>
-              Intelligent Fraud Detection
+              Advanced Trade Charts
             </p>
             <p className="set">
               <div className="tick">
                 <img src={icon} alt="tick" />
               </div>
-              Simple Documentation
+              Large selection of crypto assets
             </p>
             <p className="set">
               <div className="tick">
                 <img src={icon} alt="tick" />
               </div>
-              Dev Support
+              Military Grade enctyption
             </p>
           </div>
-          <button>Get Started >></button>
+          <button className="Startedyet">Get Started ></button>
           <button>Learn More >></button>
         </div>
         <div className="right">

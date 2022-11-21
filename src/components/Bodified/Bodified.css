@@ -22,3 +22,90 @@
     position: absolute;
     z-index: 1;
 }
+
+@media screen and (max-width: 400px) {
+    /* .card-container04 {
+        flex-direction: column;
+        width: 20rem;
+        padding: 15px;
+    }
+    .left {
+        width: 100%;
+    }
+    .Develophim {
+        font-size: 12px;
+    }
+    .card-container04 .left h1 {
+        font-size: 17px;
+    }
+    .list {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .right {
+        width: 100%;
+        height: 50%;
+    }
+    .card-design02 {
+        display: flex;
+        flex-direction: column;
+    } */
+    @media screen and (max-width: 400px) {
+        /* .card-container04 {
+            flex-direction: column;
+            width: 20rem;
+            padding: 15px;
+        }
+        .left {
+            width: 100%;
+        }
+        .Develophim {
+            font-size: 12px;
+        }
+        .card-container04 .left h1 {
+            font-size: 17px;
+        }
+        .list {
+            display: flex !important;
+            flex-direction: column !important;
+        }
+        .right {
+            width: 100%;
+            height: 50%;
+        }
+        .card-design02 {
+            display: flex;
+            flex-direction: column;
+        } */
+        .card-trade {
+            /* display: flex; */
+            /* flex-direction: column; */
+            /* width: 5px; */
+            /* height: -26rem; */
+            justify-content: center;
+        }
+        .card-trade01 {
+            padding: 5px;
+        }
+        .card-trade {
+            padding: 50px;
+            display: flex;
+            height: 750px;
+            /* margin: 40px; */
+            flex-direction: column;
+            /* width: 40px; */
+        }
+        .positionphone {
+            height: 1000px;
+            width: 20rem;
+        }
+        .positionphone img {
+            width: 95%;
+        }
+        .Hooks {
+            gap: 9rem;
+            font-size: 14px;
+            /* vertical-align: Center; */
+        }
+    }
+}

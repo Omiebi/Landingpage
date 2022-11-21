@@ -48,6 +48,11 @@ span {
 
 .left {
     width: 55%;
+    font-family: 'Visby';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
 }
 
 .right {
@@ -56,4 +61,47 @@ span {
 
 .fillup {
     color: aliceblue;
+}
+
+.Startedyet {
+    background: linear-gradient(to right, #3f35d4, #ef4f6c);
+}
+
+.Develophim {
+    color: #2764FF;
+    font-family: 'Visby';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 6px;
+}
+
+@media screen and (max-width: 400px) {
+    .card-container05 {
+        flex-direction: column;
+        width: 20rem;
+        padding: 15px;
+    }
+    .left {
+        width: 100%;
+    }
+    .Develophim {
+        font-size: 12px;
+    }
+    .card-container05 .left h1 {
+        font-size: 19px;
+    }
+    .list {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .right {
+        width: 100%;
+        height: 50%;
+    }
+    .right img {
+        width: 20rem !important;
+        height: 10rem !important;
+    }
 }

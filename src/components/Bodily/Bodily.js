@@ -15,10 +15,14 @@ const Bodily = () => {
             <h1 className="Roqquians">
               Lets hear from other <br /> Roqquains
             </h1>
+
+            <h1 className="Roqquians001">
+              Lets hear from other  Roqquains
+            </h1>
           </div>
           <p className="Roqquians01">
-            People who use our app think kwe are awesome. <br /> Here's what
-            they are saying!
+            People who use our app think we are awesome. Here's what they are
+            saying!
           </p>
         </div>
 
@@ -58,7 +62,6 @@ const Bodily = () => {
               </p>
             </div>
           </div>
-
         </div>
       </div>
     </div>

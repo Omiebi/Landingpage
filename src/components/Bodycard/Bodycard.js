@@ -12,7 +12,7 @@ const Bodycard = () => {
       <div className="blue">
         <div className="blue01">
           <h1>Roqqu Hub</h1>
-          <p className="Hubcolor">Go to Hub >></p>
+          <p className="Hubcolor">Learn More >></p>
         </div>
         <p className="spaces">
           We present to you the no. 1 stop for everything crypto and blockchain.
@@ -31,6 +31,15 @@ const Bodycard = () => {
               <li>Defi</li>
             </ul>
           </p>
+        </div>
+
+        <div>
+          <ul className="bitcoincash">
+            <button>All</button>
+            <li>Bitcoin</li>
+            <li>Blockchain</li>
+            <li>Tutorial</li>
+          </ul>
         </div>
       </div>
 

@@ -3,7 +3,7 @@
 }
 
 .main-navbar {
-    width: 100%;
+    width: 100vw;
 }
 
 .img-box {
@@ -12,15 +12,22 @@
     left: 0;
     z-index: -1;
     width: 100%;
-    height: 100%;
+    height: 57rem;
 }
 
 .img-box img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .sub-navbar {
-    padding: 5rem 2rem;
+    padding: 1rem 3rem;
+    margin-top: 1.9rem;
+}
+
+.hamburgers {
+    display: none;
 }
 
 .navbar-items {
@@ -29,6 +36,7 @@
     align-items: center;
     list-style: none;
     width: 100%;
+    margin-top: -2rem;
 }
 
 .navbar01 {
@@ -46,6 +54,7 @@
     color: aliceblue;
     border: none;
     border-radius: 10px;
+    margin-top: -2.5rem;
 }
 
 .News-btn {
@@ -53,8 +62,11 @@
     border: 1px solid;
     border-radius: 50px;
     height: 100%;
-    border-color: azure;
-    background-color: rgb(207, 235, 246);
+    border-color: transparent;
+    background-color: #c5d0eb;
+    /* background-color: #2764FF; */
+    /* background-color: rgb(207, 235, 246); */
+    color: #2764ff;
 }
 
 .crypto {
@@ -75,6 +87,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
+    margin-top: -2rem;
 }
 
 .email-form {
@@ -85,6 +98,10 @@
     margin-bottom: 1rem;
     width: 100%;
     position: relative;
+}
+
+.News-btn05 {
+    display: none;
 }
 
 .email-form01 {
@@ -103,5 +120,149 @@
     display: flex;
     justify-content: center;
     margin-left: 20rem;
-    padding-top: 2rem;
+    padding-top: 4.3rem;
+}
+
+.SignIn {
+    margin: 25px;
+    margin-top: -2rem;
+}
+
+.flagship {
+    margin-left: 15px;
+    margin-top: -2rem;
+}
+
+.News-btn01 {
+    background-color: #2764ff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.SignupButton {
+    padding: 10px 50px;
+    top: -5.8rem;
+    right: 20%;
+    background: linear-gradient(to right, #3f35d4, #ef4f6c);
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    margin-top: -2.5rem;
+    margin-right: 4px;
+    z-index: 27%;
+}
+
+.vectorthe {
+    display: none;
+}
+
+.vectortheviper {
+    display: none;
+}
+
+@media screen and (max-width: 400px) {
+    .navbar-items {
+        display: none;
+    }
+    .flagship {
+        display: block;
+        margin-left: -10rem;
+        /* margin-right: -10rem; */
+    }
+    .SignIn {
+        display: none;
+    }
+    .SignupBtn {
+        display: none;
+    }
+    .hamburgers {
+        display: block;
+        margin: 50px 90px;
+        /* margin-left: 90px; */
+    }
+    .hamburgerbutton {
+        border: none;
+        border-radius: 5px;
+        background-color: aqua;
+        margin-left: -17rem;
+    }
+    .News-btn {
+        width: 80%;
+        text-align: start;
+        margin-left: 3rem;
+        display: none;
+    }
+    .crypto {
+        text-align: start;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .img-box {
+        height: 62rem;
+    }
+    .Journey {
+        text-align: start;
+        font-size: 23px;
+        line-height: 30px;
+        margin-left: 50px;
+    }
+    .email-form01 {
+        display: none;
+    }
+    .SignupButton {
+        margin-right: 20px;
+        margin-left: 15px;
+        /* font-size: 14px; */
+        /* justify-content: center; */
+    }
+    .vectortheviper {
+        display: block;
+        padding-left: 52px;
+    }
+    .vectorthe {
+        display: block;
+        flex-direction: column;
+    }
+    .dashboad {
+        /* margin-right: 10rem; */
+        /* flex-direction: column; */
+        width: 80%;
+        margin-left: 50%;
+        margin-bottom: 90px;
+        margin-top: -18px;
+    }
+    /* .main-navbar {
+        width: 40px;
+    } */
+    .main-navbar {
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    .sub-navbar {
+        padding: 1rem 3rem;
+        margin-top: 1.9rem;
+    }
+    .News-btn05 {
+        width: 120%;
+        text-align: start;
+        /* margin-right: 30px; */
+        margin-left: 22rem;
+        display: block;
+        border: none;
+        border-radius: 20px;
+        background-color: #96b1f1;
+        padding: 7px;
+    }
+    .dashes {
+        margin-left: -80px;
+    }
+    .socialmedia {
+        display: flex;
+        gap: 45px;
+    }
+    .world {
+        width: 100%;
+        text-align: center;
+    }
 }
