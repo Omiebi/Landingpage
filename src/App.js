@@ -12,7 +12,7 @@ const App = () => {
       <Header />
       <Body />
       <Bodily />
-      <Bodified />
+      <Bodified /> 
       <Footer />
     </div>
   );
